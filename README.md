@@ -22,7 +22,7 @@ echo $morse->encode('This is a test');
 
 If you wish to decode your message you can use the decode method.
 
-```php
+```phpK
 use JM\Morsecode\Morsecode;
 
 $morse = new Morsecode();
