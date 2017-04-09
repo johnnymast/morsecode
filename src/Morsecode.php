@@ -1,6 +1,6 @@
 <?php
 
-namespace JM\Morsecode;
+namespace johnnymast\Morsecode;
 
 class Morsecode
 {

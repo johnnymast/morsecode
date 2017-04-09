@@ -1,8 +1,8 @@
 <?php
 
-namespace spec\JM\Morsecode;
+namespace spec\johnnymast\Morsecode;
 
-use JM\Morsecode\Morsecode;
+use johnnymast\Morsecode\Morsecode;
 use PhpSpec\ObjectBehavior;
 
 class MorsecodeSpec extends ObjectBehavior

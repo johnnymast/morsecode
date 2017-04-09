@@ -1,8 +1,8 @@
 <?php
 
-namespace JM\Morsecode\Tests;
+namespace johnnymast\Morsecode\Tests;
 
-use JM\Morsecode\Morsecode;
+use johnnymast\Morsecode\Morsecode;
 
 class MorsecodeTest extends \PHPUnit_Framework_TestCase
 {

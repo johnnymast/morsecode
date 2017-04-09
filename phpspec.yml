@@ -1,4 +1,4 @@
 suites:
   morsecode_suite:
-      namespace: JM\Morsecode
-      psr4_prefix: JM\Morsecode
+      namespace: johnnymast\Morsecode
+      psr4_prefix: johnnymast\Morsecode

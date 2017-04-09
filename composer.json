@@ -1,5 +1,5 @@
 {
-  "name": "JM/morsecode",
+  "name": "johnnymast/morsecode",
   "description": "Morsecode kata",
   "minimum-stability": "stable",
   "license": "proprietary",
@@ -11,8 +11,8 @@
   ],
   "autoload": {
     "psr-4": {
-      "JM\\Morsecode\\": "src/",
-      "JM\\Morsecode\\Tests\\": "tests/"
+      "johnnymast\\Morsecode\\": "src/",
+      "johnnymast\\Morsecode\\Tests\\": "tests/"
     }
   },
   "require-dev": {
