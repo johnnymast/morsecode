@@ -7,7 +7,13 @@ build:
     before:
       - composer self-update
       - composer update
-
+    tests:
+        override:
+            -
+                command: 'vendor/bin/phpunit --coverage-clover=some-file'
+                coverage:
+                    file: 'some-file'
+                    format: 'clover'
 
 checks:
     php:
