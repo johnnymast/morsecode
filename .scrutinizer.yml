@@ -3,17 +3,19 @@ filter:
         - tests/*
 
 build:
+  tests:
+    override:
+      -
+        command: 'vendor/bin/phpunit --coverage-clover=coverage'
+        coverage:
+          file: 'coverage'
+          format: 'clover'
+
   dependencies:
     before:
       - composer self-update
       - composer update
-    tests:
-        override:
-            -
-                command: 'vendor/bin/phpunit --coverage-clover=coverage'
-                coverage:
-                    file: 'coverage'
-                    format: 'clover'
+
 
 checks:
     php:
