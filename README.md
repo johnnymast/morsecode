@@ -2,7 +2,9 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/johnnymast/morsecode/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/johnnymast/morsecode/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/johnnymast/morsecode/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/johnnymast/morsecode/?branch=master)
 
-# morsecode
+# Morsecode
+
+This package allows you to encode or decode morsecode messages.
 
 
 ## Encode an message
