@@ -8,9 +8,6 @@ build:
       - composer self-update
       - composer update
 
-  tests:
-    before:
-      - php artisan myio:testenv
 
 checks:
     php:
