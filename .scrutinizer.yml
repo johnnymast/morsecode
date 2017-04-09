@@ -3,14 +3,6 @@ filter:
         - tests/*
 
 build:
-  tests:
-    override:
-      -
-        command: 'vendor/bin/phpunit --coverage-clover=coverage'
-        coverage:
-          file: 'coverage'
-          format: 'clover'
-
   dependencies:
     before:
       - composer self-update
@@ -35,6 +27,9 @@ checks:
         fix_identation_4spaces: true
         fix_doc_comments: true
 tools:
+    external_code_coverage:
+        timeout: 600
+        runs: 3
     php_code_coverage: true
     php_code_sniffer:
         config:
