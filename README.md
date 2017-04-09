@@ -48,6 +48,14 @@ Using [composer](http://www.getcompser.com):
 $ composer require jm/morsecode
 ```
 
+## Requirements
+
+The following versions of PHP are supported by this version.
+
++ PHP 7.0
++ PHP 7.1
++ HHVM
+
 ## Development Requirements
 
 + Phpunit 5.7
