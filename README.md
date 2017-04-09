@@ -7,7 +7,7 @@
 This package allows you to encode or decode morsecode messages.
 
 
-## Encode an message
+## Encoding
 
 
 ```php
@@ -16,9 +16,8 @@ use JM\Morsecode\Morsecode;
 $morse = new Morsecode();
 echo $morse->encode('This is a test');
 ```
-***OUTPUTS***```.... .. ... / .. ... / .- / - . ... -```
 
-## Decode an message
+## Decoding
 
 ```php
 use JM\Morsecode\Morsecode;
@@ -26,7 +25,17 @@ use JM\Morsecode\Morsecode;
 $morse = new Morsecode();
 echo $morse->decode('.... .. ... / .. ... / .- / - . ... -');
 ```
-***OUTPUTS***```This is a test```
+
+## Alternative methods
+
+You can also pass the message you wish you encode or decode via the constructor of the class like so.
+
+```php
+use JM\Morsecode\Morsecode;
+
+$morse = new Morsecode('This is a test');
+echo $morse->encode();
+```
 
 ## Installation
 
