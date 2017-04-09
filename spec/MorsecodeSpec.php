@@ -4,7 +4,6 @@ namespace spec\JM\Morsecode;
 
 use JM\Morsecode\Morsecode;
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 
 class MorsecodeSpec extends ObjectBehavior
 {
