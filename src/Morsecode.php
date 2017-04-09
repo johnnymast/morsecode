@@ -78,7 +78,7 @@ class Morsecode
      */
     public function encode(string $str = '', string $result = ''): string
     {
-        if (empty($str) == true) {
+        if (empty($str) === true) {
             return $this->encode($this->value);
         }
 
@@ -97,7 +97,7 @@ class Morsecode
      */
     public function decode(string $str = '', string $result = ''): string
     {
-        if (empty($str) == true) {
+        if (empty($str) === true) {
             return $this->decode($this->value);
         }
 
