@@ -26,6 +26,14 @@ echo $morse->decode('.... .. ... / .. ... / .- / - . ... -');
 ```
 ***OUTPUTS***```This is a test```
 
+## Installation
+
+Using [composer](http://www.getcompser.com):
+
+```bash
+$ composer require jm/morsecode
+```
+
 ## Development Requirements
 
 + Phpunit 5.7
