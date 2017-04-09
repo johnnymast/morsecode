@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/johnnymast/morsecode.svg?branch=master)](https://travis-ci.org/johnnymast/morsecode)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/johnnymast/morsecode/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/johnnymast/morsecode/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/johnnymast/morsecode/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/johnnymast/morsecode/?branch=master)
 
 # morsecode
 
