@@ -50,7 +50,7 @@ The encode and decode methods could return en empty string if no translation cou
 Using [composer](http://www.getcompser.com):
 
 ```bash
-$ composer require jm/morsecode
+$ composer require johnnymast/morsecode
 ```
 
 ## Requirements
