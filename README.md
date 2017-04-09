@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/johnnymast/morsecode.svg?branch=master)](https://travis-ci.org/johnnymast/morsecode)
+
 # morsecode
 
 ## Contact me
