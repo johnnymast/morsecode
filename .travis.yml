@@ -7,13 +7,9 @@ php:
   - hhvm
 
 
-env:
-  - COMPOSER_OPTS="--prefer-lowest"
-
 before_script:
   - composer self-update
   - composer update
-
 
 
 script:
