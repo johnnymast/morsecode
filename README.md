@@ -10,7 +10,7 @@ use JM\Morsecode\Morsecode;
 $morse = new Morsecode();
 echo $morse->encode('This is a test');
 ```
-**OUTPUTS**```.... .. ... / .. ... / .- / - . ... -```
+***OUTPUTS***```.... .. ... / .. ... / .- / - . ... -```
 
 ```php
 use JM\Morsecode\Morsecode;
@@ -18,7 +18,7 @@ use JM\Morsecode\Morsecode;
 $morse = new Morsecode();
 echo $morse->decode('.... .. ... / .. ... / .- / - . ... -');
 ```
-**OUTPUTS**```This is a test```
+***OUTPUTS***```This is a test```
 
 ## Development Requirements
 
