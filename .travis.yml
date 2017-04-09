@@ -8,8 +8,8 @@ php:
 
 
 before_script:
-  - composer self-update
-  - composer update
+  - travis_retry composer self-update
+  - travis_retry composer install --no-interaction --prefer-source --dev
 
 
 script:
