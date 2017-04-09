@@ -2,11 +2,15 @@
 
 # morsecode
 
-## Contact me
+## Development Requirements
 
-This package is created and maintained by [LaravelUK](https://laraveluk.slack.com/). If you have any questions please feel free to contact us on our [Slack](https://laraveluk.slack.com/) space. 
++ Phpunit 5.7
 
-We all know making new friends can be hard and especially if your a little bit shy (we have been there) it can be hard to approach people. We have a nice solution for that because you can find us on [Twitter](https://twitter.com/UKLaravel) as well to hang out and read what we have to say there (You don't have to rush anything).
+
+## Author
+
+This package is created and maintained by [Johnny Mast](https://github.com/johnnymast). If you have any questions feel free to contact me on twitter by using [@mastjohnny](https://twitter.com/intent/tweet?text=@mastjohnny) in your tweet.
+
  
 ## License
 
