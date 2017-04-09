@@ -1,0 +1,21 @@
+{
+  "name": "JM/morsecode",
+  "description": "Morsecode kata",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Johnny Mast",
+      "email": "mastjohnny@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "JM\\Morsecode\\": "src/",
+      "JM\\Morsecode\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.7.17"
+  }
+}
