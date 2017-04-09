@@ -40,6 +40,11 @@ $morse = new Morsecode('This is a test');
 echo $morse->encode();
 ```
 
+## Return values
+
+The encode and decode methods could return en empty string if no translation could beforce. So please take note of this.
+
+
 ## Installation
 
 Using [composer](http://www.getcompser.com):

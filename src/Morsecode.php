@@ -5,6 +5,9 @@ namespace JM\Morsecode;
 class Morsecode
 {
     /**
+     * The translation table we use to encode or
+     * decode messages.
+     *
      * @var array
      */
     private $translation = [
@@ -74,6 +77,8 @@ class Morsecode
     }
 
     /**
+     * Encode a given string into morsecode.
+     *
      * @param string $str
      * @return string
      */
@@ -93,6 +98,9 @@ class Morsecode
     }
 
     /**
+     * Decode a given morsecode string into something
+     * readable for humans.
+     *
      * @param string $str
      * @return string
      */
