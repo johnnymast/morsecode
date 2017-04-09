@@ -1,6 +1,6 @@
 {
   "name": "johnnymast/morsecode",
-  "description": "Morsecode kata",
+  "description": "Encode or decode your morsecode messages with this package",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
