@@ -1,4 +1,5 @@
 <?php
+
 namespace JM\Morsecode;
 
 class Morsecode
