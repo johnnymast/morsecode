@@ -3,12 +3,11 @@ sudo: false
 
 php:
   - 7.1
-  - hhvm
+  - 7.2
 
-
-#before_script:
-#  - travis_retry composer self-update
-#  - travis_retry composer install --no-interaction --prefer-source --dev
+before_script:
+  - travis_retry composer self-update
+  - travis_retry composer install --no-interaction --prefer-source --dev
 
 
 script:
