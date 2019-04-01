@@ -2,7 +2,17 @@
   "name": "johnnymast/morsecode",
   "description": "Encode or decode your morsecode messages with this package",
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "MIT",
+  "keywords": [
+    "php",
+    "morse",
+    "encode",
+    "decode",
+    "encode",
+    "decoder",
+    "communication",
+    "army"
+  ],
   "authors": [
     {
       "name": "Johnny Mast",
