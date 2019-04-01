@@ -42,7 +42,7 @@ echo $morse->encode();
 
 ## Return values
 
-The encode and decode methods could return en empty string if no translation could beforce. So please take note of this.
+The encode and decode methods could return en empty string if no translation could be made. So please take note of this.
 
 
 ## Installation
@@ -62,7 +62,7 @@ The following versions of PHP are supported by this version.
 
 ## Development Requirements
 
-+ PHPUNIT 5.7
++ PHPUnit 5.7
 
 
 ## Author
