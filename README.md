@@ -62,7 +62,7 @@ The following versions of PHP are supported by this version.
 
 ## Development Requirements
 
-+ Phpunit 5.7
++ PHPUNIT 5.7
 
 
 ## Author
